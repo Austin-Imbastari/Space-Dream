@@ -1,6 +1,7 @@
   // Global Variables
 var launchString = '';
 var weatherFor = '';
+var mission = '';
 
 
 // Ajax server calls
@@ -39,6 +40,7 @@ function weatherSuccess(data) {
     var wholeWeather = Math.floor(wholeNumberWeather);
     var h1Sun = document.getElementById('temp').innerText = wholeWeather + '°';
     var h1Rain = document.getElementById('chance-of-rain').innerText = weatherDay.daily_chance_of_rain + '%'
+
 }
 
 function weatherError(error) {
@@ -63,6 +65,11 @@ function spaceXSuccess (data) {
     document.getElementById('hours').innerText = hours
     document.getElementById('minutes').innerText = minutes
     document.getElementById('seconds').innerText = seconds
+
+    //Set the mission global variable for the rocket.html page to use
+    mission = data[0].details;
+    window.localStorage.setItem('mission', data[0].details);
+
   });
 }
 

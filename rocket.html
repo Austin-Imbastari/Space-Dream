@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,25 +11,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="col-4 m-auto launch-container">
-      <div class="row">
-        <div class="m-auto">
-          <h1 class="h1Tag">Mission</h1>
-        </div>
+      <div class="spaceship-container">
+        <img class="spaceship-img" src="./pexels-spacex-60130.jpg" alt="spacexspaceship">
       </div>
-    </div>
-    <div class="spaceship-container">
-      <img class="spaceship-img" src="./pexels-spacex-60130.jpg" alt="spacexspaceship">
 
-    </div>
+        <div class="container-forecast">
+          <h3 class="title-forecast ">Mission Brief</h3>
+        </div>
+        <div class="weather-wrapper">
+          <div class="col-4 mission-card">
+            <p id="mission-brief"></p>
+          </div>
+        </div>
 
-
-
+        <div class="rocket-container">
+          <div class="row">
+            <div class="m-auto">
+              <div class="text-appear">
+                <a href="./countdown.html">
+                  <img class="center-block" src="./images-removebg-preview.png" alt="rocket">
+                </a>
+                <div class="overlay">
+                  <div class="text">Click me </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
     integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
     crossorigin="anonymous">
 </script>
+<script src="rocket.js"></script>
 </body>
-
 </html>

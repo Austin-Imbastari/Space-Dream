@@ -281,22 +281,42 @@ li span {
   }
 }
 
-
 .spaceship-img {
   max-width: 800px;
+  border-radius: 20px;
 }
 
 .spaceship-container{
   margin: 0 auto;
   padding: 0.5rem;
   text-align: center;
-  animation: downs ease-in-out 1s;
+  animation: downs ease-in-out 1.5s;
 }
 
 @keyframes downs {
   from {
     opacity: 0;
-    transform: translateY(-1000px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mission-card{
+  position: absolute;
+  font-weight: 300;
+  font-size: 28px;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.6);
+  animation: mission-appear ease-out 1s;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+  @keyframes mission-appear {
+  from {
+    opacity: 0;
+    transform: translateY(150px);
   }
   to {
   opacity: 1;
