@@ -282,7 +282,7 @@ li span {
 }
 
 .spaceship-img {
-  max-width: 800px;
+  max-width: 600px;
   border-radius: 20px;
 }
 
@@ -305,7 +305,7 @@ li span {
 .mission-card{
   position: absolute;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 20px;
   color: #000000;
   background: rgba(255, 255, 255, 0.6);
   animation: mission-appear ease-out 1s;
