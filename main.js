@@ -3,7 +3,6 @@ var launchString = '';
 var weatherFor = '';
 var mission = '';
 
-
 // Ajax server calls
 var helloSpaceX = $.ajax({
   url: "https://api.spacexdata.com/v4/launches/upcoming",
@@ -40,7 +39,6 @@ function weatherSuccess(data) {
     var wholeWeather = Math.floor(wholeNumberWeather);
     var h1Sun = document.getElementById('temp').innerText = wholeWeather + '°';
     var h1Rain = document.getElementById('chance-of-rain').innerText = weatherDay.daily_chance_of_rain + '%'
-
 }
 
 function weatherError(error) {
