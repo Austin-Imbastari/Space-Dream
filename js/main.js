@@ -17,7 +17,7 @@ var helloWeather = $.ajax({
   error: weatherError,
 })
 
-// Weather functions for the weather widget
+/**  Weather functions for the weather widget */
 function weatherSuccess(data) {
   console.log(data);
   for(var i = 0; i < data.forecast.forecastday.length; i++) {
@@ -29,8 +29,8 @@ function weatherSuccess(data) {
       weatherFor = foreCast.day;
     }
   }
+  /** if we have weather for cast for launch date use that if not use closest availble date which is the last entry of the weather array. */
   if(weatherFor === ''){
-    // if we have weather for cast for launch date use that if not use closest availble date which is the last entry of the weather array.
     var lastIndex = data.forecast.forecastday.length - 1;
     weatherFor = data.forecast.forecastday[lastIndex];
   }
@@ -47,7 +47,7 @@ function weatherError(error) {
   console.log(error);
 }
 
-// SpaceX functions for the countdown
+/* SpaceX functions for the countdown */
 function spaceXSuccess (data) {
   console.log(data);
   launchString = data[0].date_utc

@@ -8,7 +8,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden;
 }
 
 .container {
@@ -121,12 +121,6 @@ li span {
   transition-duration: 350ms;
   animation: up ease-in-out 2s ;
 }
-
-/* @media all and (max-width: 2048px) {
-  .center-block {
-    margin-top: 70%;
-  }
-} */
 
 @keyframes up {
   0% {
