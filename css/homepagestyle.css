@@ -8,6 +8,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .container {
@@ -27,6 +28,10 @@ body {
 
 .countdown-h1{
   font-size: 150%;
+}
+
+#temp , #chance-of-rain{
+  margin-top: 80px;
 }
 
 .container2 {
@@ -81,7 +86,7 @@ li span {
 
 @media all and (max-width: 800px) {
   #temp, #chance-of-rain {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
