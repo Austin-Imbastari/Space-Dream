@@ -11,7 +11,7 @@ var helloSpaceX = $.ajax({
   error: spaceXError,
 });
 var helloWeather = $.ajax({
-  url: "http://api.weatherapi.com/v1/forecast.json?key=1955bca76eb54eec87c151904202309&days=4&q=32920",
+  url: "https://api.weatherapi.com/v1/forecast.json?key=1955bca76eb54eec87c151904202309&days=4&q=32920",
   type: "GET",
   success: weatherSuccess,
   error: weatherError,
