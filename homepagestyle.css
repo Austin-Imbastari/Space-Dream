@@ -79,6 +79,11 @@ li span {
   border-radius: 2%;
 }
 
+@media all and (max-width: 800px) {
+  #temp, #chance-of-rain {
+    font-size: 30px;
+  }
+}
 
 .rocket-container {
   margin-top:0%;
@@ -287,6 +292,11 @@ li span {
   border-radius: 20px;
 }
 
+@media all and (max-width: 800px) {
+  .spaceship-img {
+    max-width: 300px;
+  }
+}
 .spaceship-container{
   margin: 0 auto;
   padding: 0.5rem;

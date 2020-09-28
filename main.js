@@ -22,6 +22,7 @@ function weatherSuccess(data) {
   console.log(data);
   for(var i = 0; i < data.forecast.forecastday.length; i++) {
     var position = launchString.indexOf("T");
+    /// forecast at 0 because its going to retrieve the latest launch.
     var foreCast = data.forecast.forecastday[0];
     var launchDateString = launchString.substring(0,position);
     if(launchDateString === foreCast.date){
@@ -29,6 +30,7 @@ function weatherSuccess(data) {
     }
   }
   if(weatherFor === ''){
+    // if we have weather for cast for launch date use that if not use closest availble date which is the last entry of the weather array.
     var lastIndex = data.forecast.forecastday.length - 1;
     weatherFor = data.forecast.forecastday[lastIndex];
   }
