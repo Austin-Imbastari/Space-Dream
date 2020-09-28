@@ -145,6 +145,11 @@ li span {
   padding-left: 2%;
   padding-right: 2%;
 }
+@media all and (max-width: 800px) {
+  .title-forecast {
+    font-size: 20px;
+  }
+}
 
 .weather-wrapper{
   display: flex;
@@ -297,6 +302,13 @@ li span {
     max-width: 300px;
   }
 }
+
+@media all and (max-width: 800px) {
+  .weeks {
+    font-size: 10px;
+  }
+}
+
 .spaceship-container{
   margin: 0 auto;
   padding: 0.5rem;
