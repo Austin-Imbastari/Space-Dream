@@ -30,6 +30,10 @@ body {
   font-size: 150%;
 }
 
+ul {
+  padding: 0%;
+}
+
 #temp , #chance-of-rain{
   margin-top: 80px;
 }
@@ -117,6 +121,12 @@ li span {
   transition-duration: 350ms;
   animation: up ease-in-out 2s ;
 }
+
+/* @media all and (max-width: 2048px) {
+  .center-block {
+    margin-top: 70%;
+  }
+} */
 
 @keyframes up {
   0% {
@@ -319,6 +329,12 @@ li span {
   padding: 0.5rem;
   text-align: center;
   animation: downs ease-in-out 1.5s;
+}
+
+@media all and (max-width: 800px) {
+  .spaceship-container {
+    margin-top: 10%;
+  }
 }
 
 @keyframes downs {
