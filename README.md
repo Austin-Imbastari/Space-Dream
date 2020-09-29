@@ -25,3 +25,12 @@ Try the application live at [https://austin-imbastari.github.io/space-dream-api/
 ## Preview
 
 ![Sep-29-2020 09-56-12](https://user-images.githubusercontent.com/55529532/94606333-2a488600-024f-11eb-8c44-952ba518a253.gif)
+
+### Getting Started
+
+1. Clone the repository.
+
+    ```shell
+    git clone https://github.com/Austin-Imbastari/space-dream-api.git
+    cd api-hackathon
+    ```
