@@ -24,7 +24,7 @@ Try the application live at [https://austin-imbastari.github.io/space-dream-api/
 
 ## Preview
 
-![Sep-29-2020 09-56-12](https://user-images.githubusercontent.com/55529532/94606333-2a488600-024f-11eb-8c44-952ba518a253.gif)
+![Sep-29-2020 12-40-26](https://user-images.githubusercontent.com/55529532/94607589-fb331400-0250-11eb-930b-91d4475147d7.gif)
 
 ### Getting Started
 
