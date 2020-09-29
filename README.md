@@ -22,9 +22,6 @@ Try the application live at [https://austin-imbastari.github.io/space-dream-api/
 - Users can view real time weather of current upcoming launch.
 - Users can view a mission brief of what the launches objective is.
 
-## Preview
-
-![Sep-29-2020 09-56-12](https://user-images.githubusercontent.com/55529532/94606333-2a488600-024f-11eb-8c44-952ba518a253.gif)
 
 ### Getting Started
 
@@ -52,3 +49,7 @@ Try the application live at [https://austin-imbastari.github.io/space-dream-api/
     ```shell
     npm run dev
     ```
+    
+## Preview
+
+![Sep-29-2020 09-56-12](https://user-images.githubusercontent.com/55529532/94606333-2a488600-024f-11eb-8c44-952ba518a253.gif)
