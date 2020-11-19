@@ -14,7 +14,7 @@ launches and a real time weather widget to specify what the weather will be on d
 
 ## Live Demo
 
-Try the application live at [https://austin-imbastari.github.io/space-dream-api/](https://austin-imbastari.github.io/space-dream-api/)
+Try the application live at [https://austin-imbastari.github.io/Space-Dream/](https://austin-imbastari.github.io/Space-Dream/)
 
 ## Features
 
