@@ -1,4 +1,4 @@
-# space-dream-api
+# Space-Dream
 
 A project utilizing the data from two public APIs to create realtime countdown for SpaceX's upcoming
 launches and a real time weather widget to specify what the weather will be on during launch day.
