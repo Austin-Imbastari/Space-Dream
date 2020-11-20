@@ -29,7 +29,7 @@ function weatherSuccess(data) {
       weatherFor = foreCast.day;
     }
   }
-  /** if we have weather for cast for launch date use that if not use closest availble date which is the last entry of the weather array. */
+/** if we have weather for cast for launch date use that if not use closest availble date which is the last entry of the weather array. */
   if(weatherFor === ''){
     var lastIndex = data.forecast.forecastday.length - 1;
     weatherFor = data.forecast.forecastday[lastIndex];
@@ -42,7 +42,6 @@ function weatherSuccess(data) {
     var h1Sun = document.getElementById('temp').innerText = wholeWeather + '°';
     var h1Rain = document.getElementById('chance-of-rain').innerText = weatherDay.daily_chance_of_rain + '%'
 }
-
 function weatherError(error) {
   console.log(error);
 }
@@ -67,9 +66,13 @@ function spaceXSuccess (data) {
     document.getElementById('seconds').innerText = seconds
 
     //Set the mission global variable for the rocket.html page to use
-    mission = data[0].details;
-    window.localStorage.setItem('mission', data[0].details);
-
+    if(data[0].details === null) {
+      mission = 'Mission Brief will be coming soon!'
+      window.localStorage.setItem('mission', mission);
+    } else {
+      mission = data[0].details;
+      window.localStorage.setItem('mission', data[0].details);
+    }
   });
 }
 
